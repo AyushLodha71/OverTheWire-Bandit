@@ -1,0 +1,2 @@
+To login into bandit0, use command:
+ssh -p 2220 bandit0@bandit.labs.overthewire.org

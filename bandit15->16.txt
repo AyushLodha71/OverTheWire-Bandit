@@ -1,0 +1,7 @@
+1  man ncat
+2  ncat --ssl localhost 30001 (Method 1)
+3  openssl s_client localhost 30001
+4  openssl s_client --connect localhost 30001
+5  openssl s_client -connect localhost 30001
+6  openssl s_client --connect localhost:30001 (Method 2)
+7  history

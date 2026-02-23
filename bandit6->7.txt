@@ -1,0 +1,6 @@
+1  ls
+2  cd ../..
+3  find ./ -size 33c -owner bandit7 -group bandit6
+4  find ./ -size 33c -user bandit7 -group bandit6
+5  cat ./var/lib/dpkg/info/bandit7.password
+6  history

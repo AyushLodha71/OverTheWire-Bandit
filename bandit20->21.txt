@@ -1,0 +1,26 @@
+Now, we need to login into 2 terminals
+
+Terminal 1-> Listen to some port, I took 1234
+	1  ncat -l 1234
+	2  history
+
+Terminal 2-> run the setuid file
+	1  ls
+	2  ls -al
+	3  ./suconnect 1234
+	4  history
+
+First you start listening on Port 1234 by running command 1 in terminal 1 (Do not terminate)
+Then you run the “./suconnect 1234” command in terminal 2
+Then you enter your password in Terminal 1 and get the password in terminal 1.
+
+Here is what I can see in:
+Terminal 1:
+	ncat -l 1234
+	0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+	EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
+Terminal 2:
+	./suconnect 1234
+	Read: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+	Password matches, sending next password

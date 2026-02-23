@@ -1,0 +1,9 @@
+Bandit 26 -> Bandit 27 is similar to Bandit 19 -> Bandit 20
+
+1  ls
+2	cat text.txt 
+3  cat bandit27-do 
+4  cat /etc/bandit_pass/bandit26
+5  ls -al
+6  ./bandit27-do cat /etc/bandit_pass/bandit27
+7  history

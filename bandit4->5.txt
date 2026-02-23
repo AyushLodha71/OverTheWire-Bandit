@@ -1,0 +1,6 @@
+1  ls
+2  cd inhere/
+3  ls -al
+4  file ./*
+5  cat ./-file07
+6  history

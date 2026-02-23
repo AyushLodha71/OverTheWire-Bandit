@@ -1,0 +1,11 @@
+1  ls -al
+2  cat sshkey.private 
+3  history
+
+(To log in using Private key, first save the private key using:
+scp -P 2220 bandit13@bandit.labs.overthewire.org:~/sshkey.private .
+Chmod 700 sshkey.private
+)
+
+And to login into level 14 using this, we need to use:
+ssh -p 2220 -i ~/Desktop/OTW/sshkey.private bandit14@bandit.labs.overthewire.org

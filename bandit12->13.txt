@@ -1,0 +1,54 @@
+1  mktemp -d
+2  ls
+3  cd /tmp/tmp.eXMNawsrsN
+4  cp ~/data.txt .
+5  ls
+6  file data.txt 
+7  cat data.txt 
+8  man xxd
+9  xxd -r data.txt 
+10  xxd -r data.txt >file
+11  ls
+12  file file
+13  mv file file.gzip
+14  man gzip
+15  mv file.gzip file.gz
+16  gzip -d file.gz 
+17  ls
+18  file file 
+19  mv file file.bz2
+20  bz2 -d file.bz2 
+21  bzip2 -d file.bz2 
+22  file file 
+23  mv file file.gz
+24  ls
+25  gzip -d file.gz 
+26  ls
+27  file file 
+28  mv file file.tar.gz
+29  man tar
+30  tar -xf file.tar.gz 
+31  ls
+32  file data5.bin 
+33  mv data5.bin data5.tar.gz
+34  tar -xf data5.tar.gz 
+35  ls
+36  file data6.bin 
+37  mv data6.bin data6.bz2
+38  bzip2 -d data6.bz2 
+39  ls
+40  file data6
+41  mv data6 data6.tar.gz
+42  tar -xf data6.tar.gz 
+43  ls
+44  file data8.bin 
+45  mv data8.bin data8.gz
+46  gzip -d data8.gz 
+47  ls
+48  file data8
+49  cat data8
+50  rm ./*
+51. Ls -al
+52 cd ..
+53 rmdir tmp.eXMNawsrsN
+54  history

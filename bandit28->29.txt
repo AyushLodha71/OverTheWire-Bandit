@@ -1,0 +1,21 @@
+Add the following to ~/.ssh/config on your local computer
+
+Host bandit28-git
+  Hostname bandit.labs.overthewire.org
+  Port 2220
+  User bandit28-git
+
+And then run the following to clone the repo:
+
+git clone bandit28-git:/home/bandit28-git/repo
+
+Now, if you read README, then you will find nothing
+
+Now you will check the commit history using:
+
+git log
+
+Finally, checkout all the commits and check which one of the commit has the password for bandit 29
+
+The command to checkout is:
+git checkout commit_label (something like d0cf2ab7dd7ebc6075b59102a980155268f0fe8f)

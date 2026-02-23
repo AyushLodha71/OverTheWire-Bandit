@@ -1,0 +1,6 @@
+1  ls
+2  ls -al ( You will see the line: 
+“-rwsr-x---   1 bandit20 bandit19 14884 Oct 14 09:26 bandit20-do” The s in this line says that this is an file which can be used to run commands as the another user. [here, bandit20])
+3  ./bandit20-do /etc/bandit_pass/bandit20
+4  ./bandit20-do cat /etc/bandit_pass/bandit20
+5  history

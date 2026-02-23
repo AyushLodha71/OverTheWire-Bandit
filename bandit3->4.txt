@@ -1,0 +1,6 @@
+1  ls
+2  cd inhere/
+3  ls
+4  ls -al
+5  cat ./...Hiding-From-You 
+6  history

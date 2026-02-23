@@ -1,0 +1,20 @@
+Add the following to ~/.ssh/config on your local computer
+
+Host bandit30-git
+  Hostname bandit.labs.overthewire.org
+  Port 2220
+  User bandit30-git
+
+And then run the following to clone the repo:
+
+git clone bandit30-git:/home/bandit30-git/repo
+
+Now, if you read README, then you will find nothing
+Even commit history is clean.
+
+Now you will check all the braches using:
+
+git tag
+
+Finally, see what the tag has using:
+git show tag_name

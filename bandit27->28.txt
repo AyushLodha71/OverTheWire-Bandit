@@ -1,0 +1,12 @@
+Add the following to ~/.ssh/config on your local computer
+
+Host bandit27-git
+  Hostname bandit.labs.overthewire.org
+  Port 2220
+  User bandit27-git
+
+And then run the following to clone the repo:
+
+git clone bandit27-git:/home/bandit27-git/repo
+
+You will find the password in README

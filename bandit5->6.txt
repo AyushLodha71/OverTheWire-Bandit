@@ -1,0 +1,16 @@
+1  ls
+2  cd inhere/
+3  ls -al
+4  file -size 1033c */*
+5  file --size 1033c */*
+6  man file
+7  man find
+8  find -size 1033c */*
+9  man find
+10  find -size 1033c ./*/*
+11  find ./*/8 -size 1033c
+12  find ./*/* -size 1033c
+13  find */* -size 1033c
+14  find ./* -size 1033c
+15  cat ./maybehere07/.file2
+16  history

@@ -1,0 +1,6 @@
+1  man strings
+2  tr [[:alpha:]] "N-ZA-Mn-za-m" data.txt 
+3  tr [[:alpha:]] "N-ZA-Mn-za-m" < data.txt 
+4  tr [[:alpha:]] 'N-ZA-Mn-za-m' < data.txt 
+5  tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt 
+6  history

@@ -1,0 +1,23 @@
+Add the following to ~/.ssh/config on your local computer
+
+Host bandit29-git
+  Hostname bandit.labs.overthewire.org
+  Port 2220
+  User bandit29-git
+
+And then run the following to clone the repo:
+
+git clone bandit29-git:/home/bandit29-git/repo
+
+Now, if you read README, then you will find nothing
+Even commit history is clean.
+
+Now you will check all the braches using:
+
+git branch -r (-r to show all the branches)
+
+Finally, checkout all the branches and check which one has the password for bandit 30
+(Hint: if the branch says origin/HEAD, you checkout HEAD)
+
+The command to checkout is:
+git checkout branch_name

@@ -1,0 +1,2 @@
+For this level, once you log in, then you will need to run $0 to make the terminal work. It then defaults to the default terminal which is /bin/sh or /bin/bash. Then you can just run 
+cat /etc/bandit_pass/bandit33

@@ -1,0 +1,21 @@
+1  cat /etc/cron.d/
+2  cd /etc/cron.d/
+3  cat cronjob_bandit24
+4  cat /usr/bin/cronjob_bandit24.sh
+5  cd cd /var/spool/bandit24/foo
+6  cd /var/spool/bandit24/foo
+7  ls
+8  mktemp -d
+9  chmod 777 /tmp/tmp.vEHEHTvYgU
+10  touch /tmp/tmp.vEHEHTvYgU/text
+11  chmod 777 /tmp/tmp.vEHEHTvYgU/text
+12  touch script.sh
+13  vim script.sh
+14  cat script.sh
+15  cat /tmp/tmp.vEHEHTvYgU/text
+16  vim script.sh
+17  chmod 777 script.sh
+18  cat /tmp/tmp.vEHEHTvYgU/text (You will see the password 1 min from the time you save the script. So if you save it at 12:13 then you will see the password when you run this command at 12:14)
+19  rm -rf /tmp/tmp.vEHEHTvYgU/*
+20  rmdir /tmp/tmp.vEHEHTvYgU
+21  history

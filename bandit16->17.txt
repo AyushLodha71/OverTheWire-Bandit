@@ -1,0 +1,7 @@
+1  nmap -sV -p31000-32000 localhost -v
+2  openssl s_clien --connect localhost:31790
+3  openssl s_client --connect localhost:31790 (Doesn’t work)
+4  ncat --ssl localhost 31790 (Works!)
+5  history
+
+(You get a Private Key)

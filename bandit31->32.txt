@@ -1,0 +1,22 @@
+Add the following to ~/.ssh/config on your local computer
+
+Host bandit30-git
+  Hostname bandit.labs.overthewire.org
+  Port 2220
+  User bandit30-git
+
+And then run the following to clone the repo:
+
+git clone bandit30-git:/home/bandit30-git/repo
+
+Then:
+
+1  cat README.md
+2  vim key.txt
+3  cat key.txt
+4  ls -al
+5  cat .git
+6  cat .gitignore
+7  git add -f key.txt
+8  git commit -m "Added key.txt"
+9  git push

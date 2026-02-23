@@ -1,0 +1,4 @@
+1  ls
+2  man base64
+3  base64 -d data.txt 
+4  history

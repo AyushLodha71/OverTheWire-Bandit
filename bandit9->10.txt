@@ -1,0 +1,15 @@
+1  ls
+2  cat data.txt | grep ".=* *"
+3  cat data.txt | grep -t ".=* *"
+4  cat data.txt | grep -a ".=* *"
+5  cat data.txt | grep -a "=* *"
+6  cat data.txt | grep -a "=*"
+7  cat data.txt | grep -a "=* "
+8  grep -I "=* " data.txt 
+9  grep -a "=* " data.txt 
+10  grep -l "=* " data.txt 
+11  grep -l ".* " data.txt 
+12  grep -a ".* " data.txt 
+13  grep -Ea ".*= " data.txt 
+14  grep -E -a ".*= " data.txt 
+15  history
